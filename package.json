@@ -9,11 +9,21 @@
   "engines": {
     "node": "^12 || ^14 || ^16"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "scripts": {
+    "changelog": "standard-changelog",
+    "lint": "eslint --config '.eslintrc.js' .",
+    "preversion": "yarn changelog && git add CHANGELOG.md"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "confusing-browser-globals": "^1.0.11",
-    "eslint": "^8.14.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^19.0.1",
     "eslint-import-resolver-typescript": "^2.7.1",
