@@ -1,0 +1,39 @@
+{
+  "name": "@vmagic/eslint-config-typescript",
+  "version": "0.0.1",
+  "description": "Styleguides instructions",
+  "main": "index.js",
+  "author": "vmagic",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "^12 || ^14 || ^16"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "confusing-browser-globals": "^1.0.11",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^19.0.1",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "prettier": "^2.5.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4",
+    "standard-changelog": "^2.0.27",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {}
+}
