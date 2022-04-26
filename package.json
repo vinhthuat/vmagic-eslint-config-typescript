@@ -2,6 +2,7 @@
   "name": "@vmagic/eslint-config-typescript",
   "version": "0.0.1",
   "description": "Styleguides instructions",
+  "repository": "https://github.com/vinhthuat/vmagic-eslint-config-typescript.git",
   "main": "index.js",
   "author": "vmagic",
   "license": "MIT",
